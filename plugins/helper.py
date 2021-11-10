@@ -17,16 +17,16 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START = """
-Hi {}!
+𝗛𝗜 {}!
         
-This Is PDisk Bot For Free 😇
-Read /help Carefully & Do Follow All Given Instruction...
+ 𝗜 𝗔𝗠 𝗔 𝗣𝗗𝗜𝗦𝗞 𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗥 𝗕𝗢𝗧 𝘃𝟮  ©@KOT_BOTS😇
+𝗥𝗘𝗔𝗗 /help 𝗖𝗮𝗿𝗲𝗳𝘂𝗹𝗹𝘆 & 𝗗𝗼 𝗙𝗼𝗹𝗹𝗼𝘄 𝗔𝗹𝗹 𝗚𝗶𝘃𝗲𝗻 𝗜𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗶𝗼𝗻𝘀...
 
-For More Bots Join @HeimanSupports
+𝗙𝗢𝗥 𝗠𝗢𝗥𝗘 𝗕𝗢𝗧𝗦 𝗝𝗢𝗜𝗡 : @KOT_BOTS 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 : @KOT_REPORS
 """
 
 HELP = """
-**Send Me Direct Download Link Like Mirror Or From @LinkXGenBot.
+**Send Me Direct Download Link Like Mirror.
 
 Send As This Format**
 
@@ -52,8 +52,8 @@ START_BUTTONS = InlineKeyboardMarkup(
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('📮 Update 📮', url='https://telegram.dog/HeimanSupports/'),
-        InlineKeyboardButton('🛠️ Support 🛠️', url='https://telegram.dog/HeimanSupport/'),
+        InlineKeyboardButton('📮 Update 📮', url='https://telegram.dog/KOT_BOTS/'),
+        InlineKeyboardButton('🛠️ Support 🛠️', url='https://telegram.dog/KOT_REPORS/'),
         ],[
         InlineKeyboardButton('Home', callback_data='home'),
         InlineKeyboardButton('Close', callback_data='close')
